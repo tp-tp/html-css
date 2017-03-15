@@ -1,0 +1,29 @@
+* {
+  font-size: 20px;
+  line-height:2em;
+}
+header {
+  background-color: #ffdddd;
+}
+div#contents {
+  background-color: #ddffdd;
+  padding: 0 10px;
+}
+footer {
+  background-color: #ddddff;
+}
+aside {
+  background-color: #ffddff;
+  width: 50%;
+  float: left;
+}
+article {
+  background-color: #ddffff;
+  width: 50%;
+  float: left;
+}
+.fix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
